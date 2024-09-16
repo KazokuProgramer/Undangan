@@ -1,0 +1,124 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url('IMG_0199.JPG') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container untuk navigasi dan konten */
+.container-undangan,
+.container-content,
+.footer,
+.container-link {
+    text-align: center;
+    height: 30vh;
+}
+
+.container {
+   
+}
+
+.container-undangan {
+    color: aliceblue;
+    font-size: 7vh;
+    font-family: 'cormorant garamond';
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 10vh;
+}
+
+.container-content {
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-wedding {
+    color: aliceblue;
+    font-size: 4vh;
+    font-family: 'cormorant garamond';
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 45vh;
+}
+
+.container-name {
+    color: aliceblue;
+    font-size: 10vh;
+    font-family: 'cormorant garamond';
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 5vh;
+}
+
+.footer {
+    height: 10vh;
+}
+
+.footer-yth {
+    color: aliceblue;
+    font-size: 3vh;
+    font-family: 'cormorant garamond';
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 20vh;
+}
+
+.footer-name {
+    color: aliceblue;
+    font-size: 5vh;
+    font-family: 'cormorant garamond';
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 1vh;
+}
+
+.container-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vh;
+}
+
+.ul-link {
+    list-style-type: none;
+    padding: 0;
+}
+
+.li-link {
+    display: inline-block;
+}
+
+.a-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #007bff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.a-link:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+

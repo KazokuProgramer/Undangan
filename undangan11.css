@@ -1,0 +1,46 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(126, 125, 125, 0), rgb(110, 110, 110)),
+    url('background4.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.section {
+    color: #00177c;
+    padding: 100px;
+    min-height: 100vh; /* Setiap bagian minimal setinggi layar */
+}
+
+.div-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #00177c; /* Warna latar belakang gelap untuk footer */
+    text-align: center;
+    padding: 10px 0;
+    height: 5vh;
+}
+
+.div-footer a {
+    color: white; /* Warna teks tautan */
+    background-color: #1100ff; /* Warna latar belakang kotak teks */
+    padding: 10px 20px; /* Ukuran padding untuk kotak teks */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    font-size: 18px; /* Ukuran font */
+    font-weight: bold; /* Teks tebal */
+    border-radius: 5px; /* Membuat sudut-sudut kotak menjadi melengkung */
+    margin: 0 10px; /* Jarak antar kotak teks */
+    display: inline-block; /* Membuat kotak menyesuaikan dengan teks */
+}
+
+.div-footer a:hover {
+    background-color: #e9fa86; /* Warna kotak berubah saat di-hover */
+    color: black; /* Warna teks berubah saat di-hover */
+}
